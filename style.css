@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces&display=swap');
+body {
+background-color: hsl(30, 38%, 92%);
+}
+.card {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 600px;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  font-family: Montserrat;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+ 
+}
+
+.card-image {
+  width: 50%;
+}
+
+.card-image img {
+  width: 100%;
+  height: auto;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  width: 50%;
+}
+
+.card-title {
+  margin: 0;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.card-description {
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 20px 0;
+  font-family: Fraunces;
+}
+
+.card-price {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.old-price {
+  margin-right: 10px;
+  font-size: 20px;
+  color: #777;
+  text-decoration: line-through;
+}
+
+.new-price {
+  font-size: 28px;
+  font-weight: bold;
+  color: hsl(158, 36%, 37%);;
+}
+
+.card-button {
+  padding: 10px 20px;
+  border: none;
+  background-color: hsl(158, 36%, 37%);;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.card-button:hover {
+  background-color: #f3553f;
+}
